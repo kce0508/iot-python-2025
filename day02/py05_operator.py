@@ -50,9 +50,9 @@ print(f'{greeting} {target}')
 
 print(greeting * 5) # 해당문자열을 * 수로 반복
 
-## 문자열(Charactor Array) == List와 유사하지만 값 수정 불가
+## 문자열(Charactor Array) : List와 유사하지만 값 수정 불가
 print(greeting[1]) # 리스트 연산
-greeting[0] = 'C'
+#greeting[0] = 'C'
 print(greeting)
 
 ## 리스트연산, 슬라이싱
