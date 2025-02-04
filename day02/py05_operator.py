@@ -26,7 +26,7 @@ print(3 + (4 * 7))
 
 ## 리스트 연산
 ## last index = len(list) - 1 
-listSample = [1, 3, 5, 7, 9]
+listSample = [1,3,5,7,9]
 print(listSample[0]) 
 print(len(listSample)) # 리스트의 길이
 
@@ -57,7 +57,7 @@ print(greeting)
 
 ## 리스트연산, 슬라이싱
 listSample = ['2', '0', '2', '5', '-', '0', '2', '-', '0', '4']
-currnet = '2025-02-04 15:52:40'
+currnet = '2025-02-04'
 
 for i in listSample:
     print(i, end='')
@@ -83,21 +83,21 @@ print(year, month, day)
 print(currnet[-2:])
 
 ## 문자열 연산 중 함수를 사용
-full_Name = "Hugo MG. Sung"
+full_name = "Hugo MG. Sung"
 # 자르기
-print(full_Name. split())
-print(full_Name.split(' '))
+print(full_name. split())
+print(full_name.split(' '))
 
-names = full_Name.split(' ')
+names = full_name.split(' ')
 print(type(names))
 print(names)
 
-names = full_Name.split('.')
+names = full_name.split('.')
 print(type(names))
 print(names)
 
 # 바꾸기
-print(full_Name.replace('Hugo MG.', 'Ashley'))
+print(full_name.replace('Hugo MG.', 'Ashley'))
 
 # 공백제거
 origin = '     Hello  ~     '
@@ -109,15 +109,15 @@ print(f'//{origin.strip()}//')
 
 # 단어찾기
 full_Name = "Hugo MG. Sung"
-print(full_Name.find('G'))
-print(full_Name.find('g'))
-print(full_Name.find('h'))  # -1 : h를 찾을 수 없음!
+print(full_name.find('G'))
+print(full_name.find('g'))
+print(full_name.find('h'))  # -1 : h를 찾을 수 없음!
 
-print(full_Name.count('g'))  # g가 문장에 몇번 존재
-# print(full_Name.index('h'))  # 오류발생!
+print(full_name.count('g'))  # g가 문장에 몇번 존재
+# print(full_name.index('h'))  # 오류발생!
 
-print(full_Name.upper()) 
-print(full_Name.lower()) 
+print(full_name.upper()) 
+print(full_name.lower()) 
 
 ## T로 자를때
 # '', "" == Empty(비어있다)
