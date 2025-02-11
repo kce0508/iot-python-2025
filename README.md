@@ -183,13 +183,17 @@ https://github.com/user-attachments/assets/b1c17a49-7636-4b5e-b27b-7b9a861f26a1
         # 위젯.pack() 필수!
         root.mainloop()
         ```
-
 <!-- 주석 -->
 <!-- html에서 사용하는 <img>태그로 캡처한 이미지를 추가>
 <!-- ![py001](./image/py001.png)-->
-
+<img src="./image/py001.png" width="400">
 
 ## 7일차
 - 파이썬 응용
     - 토이프로젝트
         - ChatGPT 유사앱 - 구글 제미나이 API
+    - 실습
+        - 제미나이 챗앱 -> 클래스로 변경
+
+    - 실행파일 만들기
+    
