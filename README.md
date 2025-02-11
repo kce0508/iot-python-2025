@@ -195,6 +195,10 @@ https://github.com/user-attachments/assets/b1c17a49-7636-4b5e-b27b-7b9a861f26a1
     - 실습
         - 제미나이 챗앱 -> **클래스로 형태**로 변경
 
+
+https://github.com/user-attachments/assets/51804df2-1864-46e3-9ccb-6708146ed765
+
+
 - 파이썬 응용
     - 실행파일 만들기
         - `pyinstaller` 모듈 설치
