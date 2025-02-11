@@ -141,7 +141,7 @@ IoT 개발자 기초 프로그래밍 언어 리포지토리
 
 https://github.com/user-attachments/assets/b1c17a49-7636-4b5e-b27b-7b9a861f26a1
 
-    
+- 파이썬 응용    
     - 주피터노트북 기본사용법
         - 파이썬을 사용, 연구를 목적으로 하는 리포트 작성에 특화된 기술
         - 주피터 프로젝트에서 나온 결과물
@@ -193,7 +193,12 @@ https://github.com/user-attachments/assets/b1c17a49-7636-4b5e-b27b-7b9a861f26a1
     - 토이프로젝트
         - ChatGPT 유사앱 - 구글 제미나이 API
     - 실습
-        - 제미나이 챗앱 -> 클래스로 변경
+        - 제미나이 챗앱 -> **클래스로 형태**로 변경
 
     - 실행파일 만들기
-    
+        - `pyinstaller` 모듈 설치
+        - > pip install pyinstaller
+        - > pyinstaller --onefile 파이썬파일명
+        - 같이 실행되는 터미널을 제거하려면
+        - > pyinstaller --onefile --noconsole 파이썬파일명
+        - 아이콘등의 리소스를 dist 폴더에 복사필요
