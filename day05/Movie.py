@@ -1,4 +1,4 @@
-#Movie.py - Movie이름의 모듈
+# Movie.py - Movie이름의 모듈
 class Movie:
     def __init__(self, title, year, company, rate):
         self.__title = title
