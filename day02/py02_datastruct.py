@@ -62,4 +62,3 @@ samsung_ = ''
 # samsung! = ''  # _이외의 특수문자는 사용 불가
 # samsung* = ''
 # samsung-apple = ''  # 파이썬 연산자는 사용 불가
-#  
