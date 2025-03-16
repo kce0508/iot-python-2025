@@ -47,7 +47,7 @@ print(arr)
 print(arr.extend(arr2))
 
 ## 리스트 정렬(쇼핑몰 낮은 가격순, 높은 가격순, 최신일자부터...)
-arr = [6,7,1,3,9,0,2,8]     
+arr = [6, 7, 1, 3, 9, 0, 2, 8]     
 print(arr)
 arr.sort() # 오름차순 정렬
 print(arr) 
