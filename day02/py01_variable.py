@@ -11,7 +11,7 @@ a = 10      # 정수(소수점 없는 수), Integer
 print(a) # 함수는 늘 괄호를 같이 사용
 print(type(a))
 
-a = 12.34   # 실수(소수점 있는 수), Float
+a = 12345.34   # 실수(소수점 있는 수), Float
 print(a)
 print(type(a))
 
@@ -27,7 +27,7 @@ a = 1_900_000_000 # 천단위마다 쉼표와 같이 표현(팁), String
 print(a)
 print(type(a))
 
-a = "Life is short, You need Python"  # 문자열
+a = "Life is short, You need Python"  # 문자열, String
 print(a)
 print(type(a))
 
