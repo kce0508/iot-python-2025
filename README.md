@@ -227,3 +227,6 @@ https://github.com/user-attachments/assets/51804df2-1864-46e3-9ccb-6708146ed765
 <!-- $$ y = r \cdot \sin \theta $$ -->
 
 <img src="./image/py004.gif" width="700" height="450">
+
+## 9일차
+- 코딩 테스트
