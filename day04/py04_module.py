@@ -6,7 +6,7 @@ import math
 print(math.pi)
 
 PI = 3.141592
-# 2 ** 10
+# 2 ** 10 -> int
 print(math.pow(2, 10)) # float
 print(math.sqrt(4))
 print(math.log2(2))
@@ -30,5 +30,10 @@ result = random.choices(numbers, weights=weight, k=6)
 print(result)
 # 한꺼번에 여섯개를 추출하는 랜덤
 
+
+import numpy
+
+lotto = numpy.random.choice(numbers, 6, replace=False)
+print(list(lotto))
 
 
