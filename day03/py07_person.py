@@ -7,7 +7,7 @@ class Person:
     weight = 76.2
     gender = 'male'
 
-    # 초기화 메서드(파이썬 기본으로 포함)
+    # 초기화(생성자) 메서드(파이썬 기본으로 포함)
     def __init__(self, name, age, weight, gender):
         self.name = name
         self.age = age
